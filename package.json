@@ -1,0 +1,20 @@
+{
+    "name": "openshift-ghost-starter",
+    "description" : "Openshift Ghost Starter",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/rorymadden/openshift-ghost-starter.git"
+    },
+    "bugs": "https://github.com/rorymadden/openshift-ghost-starter/issues",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index"
+    },
+    "engines": {
+        "node": "~6.9.5 || ~4.5.0",
+        "iojs": "~3.10.10"
+    },
+    "dependencies": {
+        "ghost": "^1.5.2"
+    }
+}
